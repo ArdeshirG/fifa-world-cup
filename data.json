@@ -1,6 +1,25 @@
 [
-  { "date": "2026-06-11", "scores": { "Ardeshir": 3, "Jack": 5, "Mike": 2, "Mohammad": 4, "Rezvan": 1, "Tina": 6 } },
-  { "date": "2026-06-12", "scores": { "Ardeshir": 4, "Jack": 3, "Mike": 6, "Mohammad": 2, "Rezvan": 5, "Tina": 1 } },
-  { "date": "2026-06-13", "scores": { "Ardeshir": 2, "Jack": 4, "Mike": 3, "Mohammad": 5, "Rezvan": 6, "Tina": 3 } },
-  { "date": "2026-06-14", "scores": { "Ardeshir": 5, "Jack": 11, "Mike": 8, "Mohammad": 11, "Rezvan": 7, "Tina": 2 } }
+  { "date": "2026-06-14", "scores": { "Ardeshir": 5, "Jack": 4, "Mike": 2, "Mohammad": 3, "Rezvan": 1, "Tina": 6 } },
+  { "date": "2026-06-15", "scores": { "Ardeshir": 8, "Jack": 5, "Mike": 2, "Mohammad": 4, "Rezvan": 4, "Tina": 9 } },
+  { "date": "2026-06-16", "scores": { "Ardeshir": 9, "Jack": 7, "Mike": 2, "Mohammad": 5, "Rezvan": 6, "Tina": 11 } },
+  { "date": "2026-06-17", "scores": { "Ardeshir": 12, "Jack": 10, "Mike": 8, "Mohammad": 5, "Rezvan": 6, "Tina": 11 } },
+
+
+  { "date": "2026-06-18", "scores": { "Ardeshir": 15, "Jack": 10, "Mike": 11, "Mohammad": 6, "Rezvan": 7, "Tina": 14 } },
+  { "date": "2026-06-20", "scores": { "Ardeshir": 21, "Jack": 13, "Mike": 15, "Mohammad": 6, "Rezvan": 11, "Tina": 20 } },
+  { "date": "2026-06-21", "scores": { "Ardeshir": 21, "Jack": 17, "Mike": 15, "Mohammad": 10, "Rezvan": 14, "Tina": 20 } },
+  { "date": "2026-06-22", "scores": { "Ardeshir": 22, "Jack": 18, "Mike": 15, "Mohammad": 13, "Rezvan": 17, "Tina": 22 } },
+
+  { "date": "2026-06-23", "scores": { "Ardeshir": 28, "Jack": 21, "Mike": 18, "Mohammad": 13, "Rezvan": 17, "Tina": 22 } },
+  { "date": "2026-06-24", "scores": { "Ardeshir": 29, "Jack": 21, "Mike": 24, "Mohammad": 16, "Rezvan": 17, "Tina": 23 } },
+  { "date": "2026-06-25", "scores": { "Ardeshir": 32, "Jack": 24, "Mike": 30, "Mohammad": 16, "Rezvan": 20, "Tina": 26 } },
+  { "date": "2026-06-26", "scores": { "Ardeshir": 33, "Jack": 28, "Mike": 30, "Mohammad": 20, "Rezvan": 23, "Tina": 30 } },
+
+ { "date": "2026-06-27", "scores": { "Ardeshir": 33, "Jack": 35, "Mike": 33, "Mohammad": 21, "Rezvan": 26, "Tina": 32 } },
+  { "date": "2026-06-28", "scores": { "Ardeshir": 34, "Jack": 38, "Mike": 38, "Mohammad": 22, "Rezvan": 26, "Tina": 38 } },
+  { "date": "2026-06-29", "scores": { "Ardeshir": 34, "Jack": 38, "Mike": 38, "Mohammad": 22, "Rezvan": 29, "Tina": 38 } },
+  { "date": "2026-06-30", "scores": { "Ardeshir": 37, "Jack": 38, "Mike": 41, "Mohammad": 22, "Rezvan": 29, "Tina": 41 } },
+   { "date": "2026-07-01", "scores": { "Ardeshir": 40, "Jack": 38, "Mike": 44, "Mohammad": 22, "Rezvan": 29, "Tina": 44 } },
+   { "date": "2026-07-02", "scores": { "Ardeshir": 43, "Jack": 41, "Mike": 44, "Mohammad": 22, "Rezvan": 29, "Tina": 47 } }
+  
 ]
