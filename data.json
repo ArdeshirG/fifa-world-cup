@@ -1,0 +1,6 @@
+[
+  { "date": "2026-06-11", "scores": { "Ardeshir": 3, "Jack": 5, "Mike": 2, "Mohammad": 4, "Rezvan": 1, "Tina": 6 } },
+  { "date": "2026-06-12", "scores": { "Ardeshir": 4, "Jack": 3, "Mike": 6, "Mohammad": 2, "Rezvan": 5, "Tina": 1 } },
+  { "date": "2026-06-13", "scores": { "Ardeshir": 2, "Jack": 4, "Mike": 3, "Mohammad": 5, "Rezvan": 6, "Tina": 3 } },
+  { "date": "2026-06-14", "scores": { "Ardeshir": 5, "Jack": 11, "Mike": 8, "Mohammad": 11, "Rezvan": 7, "Tina": 2 } }
+]
