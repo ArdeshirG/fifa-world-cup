@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>World Cup Tracker</title>
+<title>Family World Cup Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
@@ -110,6 +110,8 @@
         <canvas id="chart"></canvas>
       </div>
     </div>
+
+    <div class="board" id="board"></div>
   </div>
 
 <script>
@@ -179,6 +181,20 @@
         }
       }
     });
+
+    // Names under the chart, sorted by the most recent day's score only (no totals).
+    const lastDay = days[days.length - 1];
+    const board = document.getElementById('board');
+    const ranked = Object.keys(PLAYERS)
+      .map(name => [name, lastDay.scores[name] || 0])
+      .sort((a, b) => b[1] - a[1]);
+    board.innerHTML = ranked.map(([name, score], i) => `
+      <div class="card ${i === 0 ? 'leader' : ''}">
+        <span class="dot" style="background:${PLAYERS[name]}"></span>
+        <span class="name">${name}</span>
+        <span class="score">${score}</span>
+      </div>
+    `).join('');
   }
 </script>
 </body>
