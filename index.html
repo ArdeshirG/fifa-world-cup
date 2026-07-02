@@ -135,15 +135,8 @@
     days.sort((a, b) => new Date(a.date) - new Date(b.date));
     const labels = days.map(d => new Date(d.date).toLocaleDateString('en-GB', { day: '2-digit', month: 'short' }));
 
-    // Running cumulative total per player, so lines show the tournament race.
-    const totals = {};
-    Object.keys(PLAYERS).forEach(p => totals[p] = 0);
-
     const datasets = Object.keys(PLAYERS).map(player => {
-      const data = days.map(d => {
-        totals[player] += (d.scores[player] || 0);
-        return totals[player];
-      });
+      const data = days.map(d => d.scores[player] || 0);
       return {
         label: player,
         data,
