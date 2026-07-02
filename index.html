@@ -113,18 +113,18 @@
 
     <div class="board" id="board"></div>
 
-    <footer></footer>
+    <footer>Updated daily from data.json</footer>
   </div>
 
 <script>
   // Hard-coded players and their line colors — edit here if the roster changes.
   const PLAYERS = {
-    Ardeshir: "#FF6B6B",
-    Jack:     "#4ECDC4",
-    Mike:     "#FFD166",
-    Mohammad: "#C77DFF",
-    Rezvan:   "#48CAE4",
-    Tina:     "#F72585"
+    Ardeshir: "#D55E00",
+    Jack:     "#009E73",
+    Mike:     "#E69F00",
+    Mohammad: "#0072B2",
+    Rezvan:   "#56B4E9",
+    Tina:     "#CC79A7"
   };
 
   fetch('data.json?_=' + Date.now()) // cache-bust so daily edits show immediately
@@ -174,7 +174,7 @@
         plugins: {
           legend: {
             position: 'top',
-            labels: { color: '#2B2B29', font: { family: 'Inter', size: 12 }, usePointStyle: true, boxWidth: 8 }
+            labels: { color: '#2B2B29', font: { family: 'Inter', size: 12 }, usePointStyle: true, boxWidth: 8, padding: 20 }
           },
           tooltip: {
             backgroundColor: '#2B2B29',
