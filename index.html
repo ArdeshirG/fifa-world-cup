@@ -110,10 +110,6 @@
         <canvas id="chart"></canvas>
       </div>
     </div>
-
-    <div class="board" id="board"></div>
-
-    <footer>Updated daily from data.json</footer>
   </div>
 
 <script>
@@ -186,21 +182,10 @@
         },
         scales: {
           x: { grid: { color: 'rgba(30,30,30,0.06)' }, ticks: { color: '#767268', font: { family: 'Space Mono', size: 11 } } },
-          y: { grid: { color: 'rgba(30,30,30,0.06)' }, ticks: { color: '#767268', font: { family: 'Space Mono', size: 11 } }, beginAtZero: true }
+          y: { grid: { color: 'rgba(30,30,30,0.06)' }, ticks: { color: '#767268', font: { family: 'Space Mono', size: 11 } }, beginAtZero: true, max: 100 }
         }
       }
     });
-
-    // Leaderboard cards, sorted by current total, leader highlighted.
-    const board = document.getElementById('board');
-    const ranked = Object.entries(totals).sort((a, b) => b[1] - a[1]);
-    board.innerHTML = ranked.map(([name, score], i) => `
-      <div class="card ${i === 0 ? 'leader' : ''}">
-        <span class="dot" style="background:${PLAYERS[name]}"></span>
-        <span class="name">${name}</span>
-        <span class="score">${score}</span>
-      </div>
-    `).join('');
   }
 </script>
 </body>
