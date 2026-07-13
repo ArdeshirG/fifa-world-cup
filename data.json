@@ -26,5 +26,6 @@
   { "date": "2026-07-05", "scores": { "Ardeshir": 43, "Jack": 47, "Mike": 53, "Mohammad": 28, "Rezvan": 32, "Tina": 47 } },
   { "date": "2026-07-06", "scores": { "Ardeshir": 46, "Jack": 47, "Mike": 53, "Mohammad": 28, "Rezvan": 32, "Tina": 50 } },
   { "date": "2026-07-07", "scores": { "Ardeshir": 46, "Jack": 50, "Mike": 53, "Mohammad": 28, "Rezvan": 35, "Tina": 50 } },
-  { "date": "2026-07-08", "scores": { "Ardeshir": 46, "Jack": 56, "Mike": 53, "Mohammad": 28, "Rezvan": 35, "Tina": 50 } }
+  { "date": "2026-07-08", "scores": { "Ardeshir": 46, "Jack": 56, "Mike": 53, "Mohammad": 28, "Rezvan": 35, "Tina": 50 } },
+  { "date": "2026-07-12", "scores": { "Ardeshir": 46, "Jack": 59, "Mike": 56, "Mohammad": 28, "Rezvan": 38, "Tina": 53 } }
 ]
